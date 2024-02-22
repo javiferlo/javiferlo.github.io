@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="paginaDeFigma.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="cabecera">
+        <nav>
+          <a href="./contenidos.html"
+            ><img
+              src="./imgs/periodico.png"
+              alt="enlace a noticias"
+              class="periodico-cabecera"
+            />
+          </a>
+          <a href="./index.html"><h1>LogroNoticias</h1></a>
+          <div class="cabecera-iconos">
+            <a href="./registro.html">👤</a>
+            <a href="./opciones.html">⚙️</a>
+          </div>
+        </nav>
+      </div>
+
+      <div class="ContenedorBarraBusqueda">
+        <form class="barraBusqueda" action="/buscar" method="get">
+          <!-- <label for="buscar">Buscar:</label> -->
+          <input
+            type="text"
+            id="buscar"
+            name="q"
+            placeholder="Buscar..."
+            alt="buscar resultados en la pagina"
+          />
+          <input type="submit" value="🔎" />
+        </form>
+      </div>
+    </header>
+
+    <main>
+      <section class="menu">
+        <p class="menu_ico">👤</p>
+        <div class="inicio_sesion">
+          <h2>INICIO DE SESIÓN</h2>
+          <label class="user">User<input type="text" /></label>
+          <label class="password">Password<input type="text" /></label>
+        </div>
+        <div class="registro">
+          <h2>REGISTRARSE</h2>
+          <label class="user">User<input type="text" /></label>
+          <label class="password">Password<input type="text" /></label>
+          <label class="email">Email<input type="text" /></label>
+          <label class="phone_number">Phone number<input type="text" /></label>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="pie-pagina">
+        <p class="texto-pie">© 2022 LogroNoticias, Inc</p>
+        <div class="contenedor-periodico-pie">
+          <img src="./imgs/periodico.png" alt="" class="periodico-pie" />
+        </div>
+        <ul class="footer-nav">
+          <li><a href="#">Contactar</a></li>
+          <li><a href="#">Quiénes somos</a></li>
+          <li><a href="#">Política de cookies</a></li>
+          <li><a href="#">Publicidad</a></li>
+          <li><a href="#">Política de cookies</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
